@@ -68,3 +68,8 @@ function findPairs(arr){
 }
 
 console.log(findPairs(numbers2))
+
+/**
+ * O(log n)
+ * O(log n) time complexity refers to an algo's runtime that grows logarithmically with the size of the input( represented by n). In simpler terms, as the input size increases, the time it takes for the algo to run increases slowly.
+ */
