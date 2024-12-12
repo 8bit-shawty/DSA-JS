@@ -1,4 +1,13 @@
-const myString = 'abba'
+/**
+ * Palindromes
+ * If the reverse string is equal to the original one, then that word is a palindrome
+ * 
+ * cddc  --->  cddc (palindrome)
+ * abba ---> abba (palindrome)
+ * Hello ---> olleH (not)
+ */
+
+const myString = 'abcd'
 
 function isPalindrome(string){
     const stringCopy = string.split('')
@@ -17,3 +26,8 @@ function isPalindrome(string){
 }
 
 isPalindrome(myString)
+
+//Simpler solution
+const palindrome = (str) => str.split('').reverse().join('') === str;
+
+console.log(palindrome('racecar'))
